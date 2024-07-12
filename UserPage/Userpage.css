@@ -1,0 +1,93 @@
+.user-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .user-header {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; */
+    position: relative;
+    margin: 20px;
+    padding-left: 210px;
+  }
+  
+  .user-header h1 {
+    margin: 0;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    height: 50px;
+    align-items: center;
+    padding-right: 25px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    background-color: #e1e1e2;
+    height: 35px;
+    padding-left: 10px;
+    font-size: medium;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #c0bfbf;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-row:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .user-pagination {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  
+  .user-pagination a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s;
+  }
+  
+  .user-pagination a:hover {
+    background-color: #ddd;
+  }
+  
+  .user-pagination .active {
+    background-color: #4caf61;
+    color: white;
+    padding: 10px;
+  }
+  
+  .user-pagination .disabled {
+    pointer-events: none;
+    color: #ccc;
+  }
+  
+  .user-icon {
+    cursor: pointer;
+  }
+  

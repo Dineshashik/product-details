@@ -1,0 +1,28 @@
+.form1{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px
+}
+.form-input{
+  width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group2{
+  width:200px
+}
+.form-group1{
+  width:780px
+}
+.button-handle{
+  display: flex;
+  justify-content:  space-evenly;
+}
+.title{
+  font-weight: bold;
+  font-size: 26px;
+}

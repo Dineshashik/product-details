@@ -1,0 +1,15 @@
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  margin-left: 0;
+  transition: margin-left 0.3s;
+}
+
+.main-content.sidebar-open {
+  margin-left: 200px; 
+}
+
+  
